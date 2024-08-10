@@ -1,0 +1,15 @@
+C:\Leet Code\Add Two Numbers\Add Two Numbers\bin\Debug\net6.0\Add Two Numbers.exe
+C:\Leet Code\Add Two Numbers\Add Two Numbers\bin\Debug\net6.0\Add Two Numbers.deps.json
+C:\Leet Code\Add Two Numbers\Add Two Numbers\bin\Debug\net6.0\Add Two Numbers.runtimeconfig.json
+C:\Leet Code\Add Two Numbers\Add Two Numbers\bin\Debug\net6.0\Add Two Numbers.dll
+C:\Leet Code\Add Two Numbers\Add Two Numbers\bin\Debug\net6.0\Add Two Numbers.pdb
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.csproj.AssemblyReference.cache
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.AssemblyInfoInputs.cache
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.AssemblyInfo.cs
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.csproj.CoreCompileInputs.cache
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.dll
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\refint\Add Two Numbers.dll
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.pdb
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\Add Two Numbers.genruntimeconfig.cache
+C:\Leet Code\Add Two Numbers\Add Two Numbers\obj\Debug\net6.0\ref\Add Two Numbers.dll
