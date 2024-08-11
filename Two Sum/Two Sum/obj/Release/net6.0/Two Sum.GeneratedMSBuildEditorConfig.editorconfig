@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Two_Sum
-build_property.ProjectDir = C:\Leet Code\Two Sum\Two Sum\
+build_property.ProjectDir = C:\LeetCode-Solutions\Two Sum\Two Sum\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
