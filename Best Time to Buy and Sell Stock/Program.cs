@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            int[] prices = { 7, 6, 4, 3, 1 };
+            int[] prices = { 7, 1, 5, 3, 6, 4 };
             int profit = 0;
             profit = MaxProfit(prices);
 
@@ -14,25 +14,17 @@
         }
         public static int MaxProfit(int[] prices)
         {
-            int maxProfit = 0 ,  profit = 0;
+            int maxProfit = 0, profit = 0, minprice = int.MaxValue;
 
-            for (int i = 0; i < prices.Length; i++)
+            foreach (int price in prices)
             {
-                for (int k = i+1; k < prices.Length; k++)
-                {
-                    profit = prices[k] - prices[i];
+                minprice = price < minprice ? price : minprice;
 
-                    if(profit <= 0)
-                    {
-                        profit = 0;
-                    }
+                profit = price - minprice;
 
-                    if (profit > maxProfit)
-                    {
-                        maxProfit = profit;
-                    }
-                }
+                maxProfit = profit > maxProfit ? profit : maxProfit;
             }
+
             return maxProfit;
         }
     }
