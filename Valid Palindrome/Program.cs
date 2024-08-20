@@ -1,4 +1,6 @@
 ﻿
+using System.Linq.Expressions;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace Valid_Palindrome
@@ -15,48 +17,15 @@ namespace Valid_Palindrome
 
         public static bool isPalindrome(string s)
         {
+            // Convert to lowercase and remove non-alphanumeric characters
+            string cleanedString = Regex.Replace(s.ToLower(), "[^a-z0-9]", "");
 
+            // Compare cleaned string with its reverse
+            char[] arr = cleanedString.ToCharArray();
+            Array.Reverse(arr);
+            string reversedString = new string(arr);
 
-            Console.Write($"this is before {s}\n");
-
-            s = Regex.Replace(s, "[^a-zA-Z0-9]", " ").ToLower();
-            /*string ns = Regex.Replace(s, "[^a-zA-Z0-9]", " ").ToLower();*/
-
-            Console.Write($"this is after {s}kdkfjdkfdk\n");
-
-
-            if (s == " ")
-            {
-                return true;
-            }
-
-            s = s.Replace(" ", "");
-            Console.Write($"this is after removing space {s}\n");
-            bool flag = false;
-            int k = s.Length - 1;
-
-            for (int i = 0; i < s.Length; i++)
-            {
-                Console.WriteLine($"This is s[i] = {s[i]} and this is s[k] = {s[k]}");
-                if ((s[i] == s[k]))
-                {
-                    flag = true;
-                }
-                else
-                {
-                    flag = false;
-                    break;
-                }
-
-
-                if (i == k)
-                {
-                    break;
-                }
-                k--;
-            }
-
-            return flag;
+            return cleanedString == reversedString;
         }
     }
 }
